@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2021/0/untitled-ontology-32"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2021/0/untitled-ontology-32">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WAR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftBearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profile_Manager"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUpdateby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TAR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIdentifiedby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommendActionsto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MQTT_Broker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Machine_Operator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Agents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notification_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asset"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EPC_Code"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SAR"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMonitoredby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationship_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Media_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EPC_Code"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Alert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acceptRelationshipRequests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedwith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubscribedto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isManagedby"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGeneratedby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationship_List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VS"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AircraftBearing"/>
+        <Class IRI="#Asset"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alert"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asset"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CS"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EPC_Code"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID_Manager"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MQTT_Broker"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Machine_Operator"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notification_Manager"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PS"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profile"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profile_Manager"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relationship_List"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relationship_Manager"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SOS"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Agents"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Media_Alert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Alert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TS"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VS"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WAR"/>
+        <Class IRI="#Relationship_List"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acceptRelationshipRequests"/>
+        <Class IRI="#Social_Agents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGeneratedby"/>
+        <Class IRI="#Alert"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIdentifiedby"/>
+        <Class IRI="#EPC_Code"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isManagedby"/>
+        <Class IRI="#Profile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMonitoredby"/>
+        <Class IRI="#Relationship_List"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedwith"/>
+        <Class IRI="#Social_Agents"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubscribedto"/>
+        <Class IRI="#AircraftBearing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUpdateby"/>
+        <Class IRI="#Relationship_List"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isan"/>
+        <Class IRI="#AircraftBearing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishto"/>
+        <Class IRI="#AircraftEngineBearing_Sensor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommendActionsto"/>
+        <Class IRI="#Machine_Operator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acceptRelationshipRequests"/>
+        <Class IRI="#Social_Agents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGeneratedby"/>
+        <Class IRI="#Notification_Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIdentifiedby"/>
+        <Class IRI="#ID_Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isManagedby"/>
+        <Class IRI="#Profile_Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMonitoredby"/>
+        <Class IRI="#Relationship_Manager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedwith"/>
+        <Class IRI="#Asset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubscribedto"/>
+        <Class IRI="#MQTT_Broker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUpdateby"/>
+        <Class IRI="#Social_Agents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isan"/>
+        <Class IRI="#Asset"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishto"/>
+        <Class IRI="#MQTT_Broker"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recommendActionsto"/>
+        <Class IRI="#Notification_Manager"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EPC_Code"/>
+        <Class IRI="#Asset"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Profile"/>
+        <Class IRI="#Asset"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.0.1) http://owlapi.sourceforge.net -->
+
