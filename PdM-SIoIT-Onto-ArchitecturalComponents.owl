@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pallavi/ontologies/2020/7/untitled-ontology-44"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pallavi/ontologies/2020/7/untitled-ontology-44">
+    <Prefix name="" IRI="http://www.semanticweb.org/pallavi/ontologies/2020/7/untitled-ontology-44"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ActivityController"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anamoly_Detection_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decision_Support_system"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ID_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PdM_SIoIT_Server"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance_Monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance_Optimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post_Process_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profile_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prognosis_Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RUL_Prediction_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relationship_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SIoIT_Component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SN_Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PdM:SIoIT_Server"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assignsIDs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#buildAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#controlsActivityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesRules"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detectsFailureConditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesCommunication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesDataFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesProfiles"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesRelationshipsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesSecurityAndAccess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#monitorsPerformanceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#postFinalActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#predictsRULOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receiveDecisionOuput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sendsDecisionInput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sendsStatusUpdates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suggestActivityTo"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has_Relation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ActivityController"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anamoly_Detection_Engine"/>
+        <Class IRI="#Prognosis_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication_Management"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Management"/>
+        <Class IRI="#SIoIT_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Decision_Support_system"/>
+        <Class IRI="#PdM:SIoIT_Server"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Resource"/>
+        <Class IRI="#Actors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ID_Management"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PdM_SIoIT_Server"/>
+        <Class IRI="#PdM:SIoIT_Server"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance_Management"/>
+        <Class IRI="#Decision_Support_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance_Monitoring"/>
+        <Class IRI="#Decision_Support_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance_Optimization"/>
+        <Class IRI="#Decision_Support_system"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post_Process_Management"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Profile_Management"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prognosis_Component"/>
+        <Class IRI="#PdM:SIoIT_Server"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RUL_Prediction_Engine"/>
+        <Class IRI="#Prognosis_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relationship_Management"/>
+        <Class IRI="#SN_Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SIoIT_Component"/>
+        <Class IRI="#PdM:SIoIT_Server"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SN_Platform"/>
+        <Class IRI="#SIoIT_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security_Management"/>
+        <Class IRI="#SIoIT_Component"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software_Resource"/>
+        <Class IRI="#Actors"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Anamoly_Detection_Engine"/>
+        <Class IRI="#RUL_Prediction_Engine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Human_Resource"/>
+        <Class IRI="#Software_Resource"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#assignsIDs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#buildAction"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#controlsActivityOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#definesRules"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#detectsFailureConditions"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managesCommunication"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managesDataFrom"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managesProfiles"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managesRelationshipsOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#managesSecurityAndAccess"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#monitorsPerformanceOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#postFinalActivity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#predictsRULOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#receiveDecisionOuput"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sendsDecisionInput"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sendsStatusUpdates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#suggestActivityTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assignsIDs"/>
+        <Class IRI="#ID_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#buildAction"/>
+        <Class IRI="#Performance_Optimization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#controlsActivityOf"/>
+        <Class IRI="#ActivityController"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesRules"/>
+        <Class IRI="#Human_Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#detectsFailureConditions"/>
+        <Class IRI="#Anamoly_Detection_Engine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesCommunication"/>
+        <Class IRI="#Communication_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesDataFrom"/>
+        <Class IRI="#Data_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesProfiles"/>
+        <Class IRI="#Profile_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesRelationshipsOf"/>
+        <Class IRI="#Relationship_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesSecurityAndAccess"/>
+        <Class IRI="#Security_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#monitorsPerformanceOf"/>
+        <Class IRI="#Performance_Monitoring"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#postFinalActivity"/>
+        <Class IRI="#Performance_Management"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#predictsRULOf"/>
+        <Class IRI="#RUL_Prediction_Engine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receiveDecisionOuput"/>
+        <Class IRI="#Decision_Support_system"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sendsDecisionInput"/>
+        <Class IRI="#SN_Platform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sendsStatusUpdates"/>
+        <Class IRI="#SN_Platform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suggestActivityTo"/>
+        <Class IRI="#Human_Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Performance_Optimization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assignsIDs"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#buildAction"/>
+        <Class IRI="#Performance_Management"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#controlsActivityOf"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesRules"/>
+        <Class IRI="#Relationship_Management"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#detectsFailureConditions"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesCommunication"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesDataFrom"/>
+        <Class IRI="#SN_Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesProfiles"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesRelationshipsOf"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesSecurityAndAccess"/>
+        <Class IRI="#SN_Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#monitorsPerformanceOf"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#postFinalActivity"/>
+        <Class IRI="#Post_Process_Management"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#predictsRULOf"/>
+        <Class IRI="#Assets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receiveDecisionOuput"/>
+        <Class IRI="#SN_Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sendsDecisionInput"/>
+        <Class IRI="#Decision_Support_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sendsStatusUpdates"/>
+        <Class IRI="#Software_Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suggestActivityTo"/>
+        <Class IRI="#Decision_Support_system"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Performance_Management"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actors</IRI>
+        <Literal>disjointwith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anamoly_Detection_Engine</IRI>
+        <Literal>DetectsAnamoly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Communication_Management</IRI>
+        <Literal>CreatesConnection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Data_Management</IRI>
+        <Literal>ManagesData</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Decision_Support_system</IRI>
+        <Literal>has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ID_Management</IRI>
+        <Literal>ManagesID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Performance_Management</IRI>
+        <Literal>MangesPerformance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Performance_Monitoring</IRI>
+        <Literal>MonitorsPerformance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Performance_Optimization</IRI>
+        <Literal>OptimizesPerformance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Post_Process_Management</IRI>
+        <Literal>ControlsProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Profile_Management</IRI>
+        <Literal>ManagesProfile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prognosis_Component</IRI>
+        <Literal>has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Relationship_Management</IRI>
+        <Literal>MangaesRelationship</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SIoIT_Component</IRI>
+        <Literal>has</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SN_Platform</IRI>
+        <Literal>ProvidesPlatform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Security_Management</IRI>
+        <Literal>EnsuresSecurity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topDataProperty</AbbreviatedIRI>
+        <Literal>has</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
